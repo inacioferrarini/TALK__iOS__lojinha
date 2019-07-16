@@ -7,6 +7,10 @@ target 'lojinha' do
 
   pod 'IQKeyboardManager'
 
+  #Modules
+  pod 'lojinha_Common', :path => '../modules/lojinha_Common'
+  pod 'lojinha_StoreFront', :path => '../modules/lojinha_StoreFront'
+
   target 'lojinhaTests' do
     inherit! :search_paths
     pod 'Nimble', '8.0.2'
