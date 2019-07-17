@@ -1,0 +1,6 @@
+[submodule "modules/StoreFront"]
+	path = modules/StoreFront
+	url = https://github.com/inacioferrarini/lojinha-storefront.git
+[submodule "modules/Common"]
+	path = modules/Common
+	url = https://github.com/inacioferrarini/lojinha-common.git
