@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Common
 
 class MainCoordinator: NSObject, Coordinator {
     

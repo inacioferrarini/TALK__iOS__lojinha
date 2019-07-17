@@ -15,8 +15,6 @@
 		BBAD867E22DE6BAF007A5D01 /* lojinhaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAD867D22DE6BAF007A5D01 /* lojinhaTests.swift */; };
 		BBAD868922DE6BAF007A5D01 /* lojinhaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAD868822DE6BAF007A5D01 /* lojinhaUITests.swift */; };
 		BBAD869E22DE6E2E007A5D01 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAD869D22DE6E2E007A5D01 /* MainCoordinator.swift */; };
-		BBAD86A422DE6EB1007A5D01 /* Coordinated.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAD86A222DE6EB1007A5D01 /* Coordinated.swift */; };
-		BBAD86A522DE6EB1007A5D01 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAD86A322DE6EB1007A5D01 /* Coordinator.swift */; };
 		C50D224C42E51E68294B639A /* Pods_lojinhaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB7CC0C8CF1C645DC66301B3 /* Pods_lojinhaTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -53,8 +51,6 @@
 		BBAD868822DE6BAF007A5D01 /* lojinhaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lojinhaUITests.swift; sourceTree = "<group>"; };
 		BBAD868A22DE6BAF007A5D01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BBAD869D22DE6E2E007A5D01 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
-		BBAD86A222DE6EB1007A5D01 /* Coordinated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coordinated.swift; sourceTree = "<group>"; };
-		BBAD86A322DE6EB1007A5D01 /* Coordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		BDAE3CE5A3C7E9B40CB5CF5C /* Pods-lojinhaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lojinhaUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-lojinhaUITests/Pods-lojinhaUITests.release.xcconfig"; sourceTree = "<group>"; };
 		CCFDC7774F36F18F8C8D89AE /* Pods-lojinha.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lojinha.debug.xcconfig"; path = "Pods/Target Support Files/Pods-lojinha/Pods-lojinha.debug.xcconfig"; sourceTree = "<group>"; };
 		CE1B03E8D36AB836E2FB00BC /* Pods-lojinhaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lojinhaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-lojinhaTests/Pods-lojinhaTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -172,7 +168,6 @@
 		BBAD869822DE6D6F007A5D01 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				BBAD869F22DE6E78007A5D01 /* Common */,
 				BBAD869C22DE6E1A007A5D01 /* Main */,
 			);
 			path = Modules;
@@ -208,31 +203,6 @@
 				BBAD869B22DE6DB2007A5D01 /* Resources */,
 			);
 			path = Main;
-			sourceTree = "<group>";
-		};
-		BBAD869F22DE6E78007A5D01 /* Common */ = {
-			isa = PBXGroup;
-			children = (
-				BBAD86A022DE6E97007A5D01 /* Protocols */,
-			);
-			path = Common;
-			sourceTree = "<group>";
-		};
-		BBAD86A022DE6E97007A5D01 /* Protocols */ = {
-			isa = PBXGroup;
-			children = (
-				BBAD86A122DE6E9D007A5D01 /* Coordinators */,
-			);
-			path = Protocols;
-			sourceTree = "<group>";
-		};
-		BBAD86A122DE6E9D007A5D01 /* Coordinators */ = {
-			isa = PBXGroup;
-			children = (
-				BBAD86A222DE6EB1007A5D01 /* Coordinated.swift */,
-				BBAD86A322DE6EB1007A5D01 /* Coordinator.swift */,
-			);
-			path = Coordinators;
 			sourceTree = "<group>";
 		};
 		DDDA3C0C55EA459943AE30C2 /* Pods */ = {
@@ -502,8 +472,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BBAD86A522DE6EB1007A5D01 /* Coordinator.swift in Sources */,
-				BBAD86A422DE6EB1007A5D01 /* Coordinated.swift in Sources */,
 				BBAD866922DE6BAE007A5D01 /* AppDelegate.swift in Sources */,
 				BBAD869E22DE6E2E007A5D01 /* MainCoordinator.swift in Sources */,
 			);
