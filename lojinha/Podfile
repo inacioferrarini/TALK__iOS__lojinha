@@ -16,6 +16,7 @@ target 'lojinha' do
 
   #Modules
   pod 'Common', :path => '../modules/Common'
+  pod 'Main', :path => '../modules/Main'
   pod 'StoreFront', :path => '../modules/StoreFront'
 
   target 'lojinhaTests' do

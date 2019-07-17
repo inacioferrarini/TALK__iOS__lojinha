@@ -406,6 +406,7 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-lojinha/Pods-lojinha-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Common/Common.framework",
 				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
+				"${BUILT_PRODUCTS_DIR}/Main/Main.framework",
 				"${BUILT_PRODUCTS_DIR}/StoreFront/StoreFront.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -414,6 +415,7 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Common.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Main.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/StoreFront.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

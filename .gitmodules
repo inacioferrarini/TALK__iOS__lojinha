@@ -4,3 +4,6 @@
 [submodule "modules/Common"]
 	path = modules/Common
 	url = https://github.com/inacioferrarini/lojinha-common.git
+[submodule "modules/Main"]
+	path = modules/Main
+	url = https://github.com/inacioferrarini/lojinha-main.git
