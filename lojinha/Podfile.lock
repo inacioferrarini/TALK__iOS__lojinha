@@ -5,12 +5,16 @@ PODS:
   - IQKeyboardManager (6.4.0)
   - Nimble (8.0.2)
   - Quick (2.1.0)
+  - StoreFront (0.0.1):
+    - StoreFront/Core (= 0.0.1)
+  - StoreFront/Core (0.0.1)
 
 DEPENDENCIES:
   - Common (from `../modules/Common`)
   - IQKeyboardManager
   - Nimble (= 8.0.2)
   - Quick (= 2.1.0)
+  - StoreFront (from `../modules/StoreFront`)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -21,13 +25,16 @@ SPEC REPOS:
 EXTERNAL SOURCES:
   Common:
     :path: "../modules/Common"
+  StoreFront:
+    :path: "../modules/StoreFront"
 
 SPEC CHECKSUMS:
   Common: 1c73ff3fefe900c874b8cae243da2812ac79d075
   IQKeyboardManager: fcef267266379c003181fc3592f6bdb8bf4db839
   Nimble: 622629381bda1dd5678162f21f1368cec7cbba60
   Quick: 4be43f6634acfa727dd106bdf3929ce125ffa79d
+  StoreFront: 54288600d870f9b54ce3bc0bfc0731ec2da0ea6d
 
-PODFILE CHECKSUM: 523f873dab4d15e28ebe1e9bc7e842f428afdc74
+PODFILE CHECKSUM: e74fa431bd8f04e27ad197d7270a39ae71ac074f
 
 COCOAPODS: 1.5.3
