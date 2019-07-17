@@ -21,4 +21,6 @@ $ git submodule update
 
 # Updating local code after clone
 
+```bash
 $ git pull --recurse-submodules
+```
