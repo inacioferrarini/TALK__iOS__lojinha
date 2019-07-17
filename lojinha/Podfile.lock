@@ -1,14 +1,14 @@
 PODS:
+  - Common (0.0.1):
+    - Common/Core (= 0.0.1)
+  - Common/Core (0.0.1)
   - IQKeyboardManager (6.4.0)
-  - lojinha_Common (0.1.0)
-  - lojinha_StoreFront (0.1.0)
   - Nimble (8.0.2)
   - Quick (2.1.0)
 
 DEPENDENCIES:
+  - Common (from `../modules/Common`)
   - IQKeyboardManager
-  - lojinha_Common (from `../modules/lojinha_Common`)
-  - lojinha_StoreFront (from `../modules/lojinha_StoreFront`)
   - Nimble (= 8.0.2)
   - Quick (= 2.1.0)
 
@@ -19,18 +19,15 @@ SPEC REPOS:
     - Quick
 
 EXTERNAL SOURCES:
-  lojinha_Common:
-    :path: "../modules/lojinha_Common"
-  lojinha_StoreFront:
-    :path: "../modules/lojinha_StoreFront"
+  Common:
+    :path: "../modules/Common"
 
 SPEC CHECKSUMS:
+  Common: 1c73ff3fefe900c874b8cae243da2812ac79d075
   IQKeyboardManager: fcef267266379c003181fc3592f6bdb8bf4db839
-  lojinha_Common: 7ef3e216a7ad7e826b0586a1e7ae2dbc6bf8345e
-  lojinha_StoreFront: 6c4814b80222de7866d32612bf9685cab6083e4b
   Nimble: 622629381bda1dd5678162f21f1368cec7cbba60
   Quick: 4be43f6634acfa727dd106bdf3929ce125ffa79d
 
-PODFILE CHECKSUM: 2a34f96b909f19d92cf804b8debd4217c05c3de1
+PODFILE CHECKSUM: 523f873dab4d15e28ebe1e9bc7e842f428afdc74
 
 COCOAPODS: 1.5.3

@@ -1,0 +1,8 @@
+author: Inacio Ferrarini
+author_url: https://twitter.com/inacioferrarini
+github_url: https://github.com/inacioferrarini/StoreFront
+root_url: https://inacioferrarini.github.io/StoreFront/
+module: StoreFront
+output: docs
+theme: fullwidth
+xcodebuild_arguments: [-workspace, 'StoreFront.xcworkspace', -scheme, 'StoreFront-iOS']

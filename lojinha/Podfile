@@ -1,5 +1,12 @@
+using_bundler = defined? Bundler
+unless using_bundler
+  puts "\nPlease re-run using:".red
+  puts "  bundle exec pod install\n\n"
+  exit(1)
+end
+
 # Uncomment the next line to define a global platform for your project
-# platform :ios, '9.0'
+platform :ios, '10.0'
 
 target 'lojinha' do
   # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
@@ -8,8 +15,8 @@ target 'lojinha' do
   pod 'IQKeyboardManager'
 
   #Modules
-  pod 'lojinha_Common', :path => '../modules/lojinha_Common'
-  pod 'lojinha_StoreFront', :path => '../modules/lojinha_StoreFront'
+  pod 'Common', :path => '../modules/Common'
+  pod 'StoreFront', :path => '../modules/StoreFront'
 
   target 'lojinhaTests' do
     inherit! :search_paths
