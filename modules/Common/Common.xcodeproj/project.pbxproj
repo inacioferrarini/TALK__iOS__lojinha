@@ -33,34 +33,14 @@
 		35B742371F82A61E00829B21 /* Quick.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 35B742351F82A61E00829B21 /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		35B742381F82A62900829B21 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35B742341F82A61D00829B21 /* Nimble.framework */; };
 		35B742391F82A62900829B21 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35B742351F82A61E00829B21 /* Quick.framework */; };
-		BBAD86B122DF691F007A5D01 /* XibedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAD86A722DF691F007A5D01 /* XibedViewController.swift */; };
-		BBAD86B222DF691F007A5D01 /* XibedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAD86A722DF691F007A5D01 /* XibedViewController.swift */; };
-		BBAD86B322DF691F007A5D01 /* XibedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAD86A722DF691F007A5D01 /* XibedViewController.swift */; };
-		BBAD86B422DF691F007A5D01 /* XibedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAD86A722DF691F007A5D01 /* XibedViewController.swift */; };
-		BBAD86B522DF691F007A5D01 /* XibedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAD86A822DF691F007A5D01 /* XibedView.swift */; };
-		BBAD86B622DF691F007A5D01 /* XibedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAD86A822DF691F007A5D01 /* XibedView.swift */; };
-		BBAD86B722DF691F007A5D01 /* XibedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAD86A822DF691F007A5D01 /* XibedView.swift */; };
-		BBAD86B822DF691F007A5D01 /* XibedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAD86A822DF691F007A5D01 /* XibedView.swift */; };
-		BBAD86B922DF691F007A5D01 /* Instantiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAD86A922DF691F007A5D01 /* Instantiable.swift */; };
-		BBAD86BA22DF691F007A5D01 /* Instantiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAD86A922DF691F007A5D01 /* Instantiable.swift */; };
-		BBAD86BB22DF691F007A5D01 /* Instantiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAD86A922DF691F007A5D01 /* Instantiable.swift */; };
-		BBAD86BC22DF691F007A5D01 /* Instantiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAD86A922DF691F007A5D01 /* Instantiable.swift */; };
-		BBAD86BD22DF691F007A5D01 /* Storyboarded.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAD86AA22DF691F007A5D01 /* Storyboarded.swift */; };
-		BBAD86BE22DF691F007A5D01 /* Storyboarded.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAD86AA22DF691F007A5D01 /* Storyboarded.swift */; };
-		BBAD86BF22DF691F007A5D01 /* Storyboarded.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAD86AA22DF691F007A5D01 /* Storyboarded.swift */; };
-		BBAD86C022DF691F007A5D01 /* Storyboarded.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAD86AA22DF691F007A5D01 /* Storyboarded.swift */; };
-		BBAD86C122DF691F007A5D01 /* ViewCodedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAD86AB22DF691F007A5D01 /* ViewCodedViewController.swift */; };
-		BBAD86C222DF691F007A5D01 /* ViewCodedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAD86AB22DF691F007A5D01 /* ViewCodedViewController.swift */; };
-		BBAD86C322DF691F007A5D01 /* ViewCodedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAD86AB22DF691F007A5D01 /* ViewCodedViewController.swift */; };
-		BBAD86C422DF691F007A5D01 /* ViewCodedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAD86AB22DF691F007A5D01 /* ViewCodedViewController.swift */; };
-		BBAD86C922DF691F007A5D01 /* Coordinated.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAD86AF22DF691F007A5D01 /* Coordinated.swift */; };
-		BBAD86CA22DF691F007A5D01 /* Coordinated.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAD86AF22DF691F007A5D01 /* Coordinated.swift */; };
-		BBAD86CB22DF691F007A5D01 /* Coordinated.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAD86AF22DF691F007A5D01 /* Coordinated.swift */; };
-		BBAD86CC22DF691F007A5D01 /* Coordinated.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAD86AF22DF691F007A5D01 /* Coordinated.swift */; };
-		BBAD86CD22DF691F007A5D01 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAD86B022DF691F007A5D01 /* Coordinator.swift */; };
-		BBAD86CE22DF691F007A5D01 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAD86B022DF691F007A5D01 /* Coordinator.swift */; };
-		BBAD86CF22DF691F007A5D01 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAD86B022DF691F007A5D01 /* Coordinator.swift */; };
-		BBAD86D022DF691F007A5D01 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAD86B022DF691F007A5D01 /* Coordinator.swift */; };
+		BBAD86DC22DF8AB2007A5D01 /* Coordinated.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAD86D222DF8AB2007A5D01 /* Coordinated.swift */; };
+		BBAD86DD22DF8AB2007A5D01 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAD86D322DF8AB2007A5D01 /* Coordinator.swift */; };
+		BBAD86DE22DF8AB2007A5D01 /* XibedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAD86D522DF8AB2007A5D01 /* XibedViewController.swift */; };
+		BBAD86DF22DF8AB2007A5D01 /* XibedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAD86D622DF8AB2007A5D01 /* XibedView.swift */; };
+		BBAD86E022DF8AB2007A5D01 /* Instantiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAD86D722DF8AB2007A5D01 /* Instantiable.swift */; };
+		BBAD86E122DF8AB2007A5D01 /* Storyboarded.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAD86D822DF8AB2007A5D01 /* Storyboarded.swift */; };
+		BBAD86E222DF8AB2007A5D01 /* ViewCodedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAD86D922DF8AB2007A5D01 /* ViewCodedViewController.swift */; };
+		BBAD86E322DF8AB2007A5D01 /* Loggable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAD86DB22DF8AB2007A5D01 /* Loggable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -148,13 +128,14 @@
 		35B7422E1F82A5E000829B21 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/iOS/Quick.framework; sourceTree = "<group>"; };
 		35B742341F82A61D00829B21 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/Mac/Nimble.framework; sourceTree = "<group>"; };
 		35B742351F82A61E00829B21 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/Mac/Quick.framework; sourceTree = "<group>"; };
-		BBAD86A722DF691F007A5D01 /* XibedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XibedViewController.swift; sourceTree = "<group>"; };
-		BBAD86A822DF691F007A5D01 /* XibedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XibedView.swift; sourceTree = "<group>"; };
-		BBAD86A922DF691F007A5D01 /* Instantiable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Instantiable.swift; sourceTree = "<group>"; };
-		BBAD86AA22DF691F007A5D01 /* Storyboarded.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Storyboarded.swift; sourceTree = "<group>"; };
-		BBAD86AB22DF691F007A5D01 /* ViewCodedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewCodedViewController.swift; sourceTree = "<group>"; };
-		BBAD86AF22DF691F007A5D01 /* Coordinated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coordinated.swift; sourceTree = "<group>"; };
-		BBAD86B022DF691F007A5D01 /* Coordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		BBAD86D222DF8AB2007A5D01 /* Coordinated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coordinated.swift; sourceTree = "<group>"; };
+		BBAD86D322DF8AB2007A5D01 /* Coordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		BBAD86D522DF8AB2007A5D01 /* XibedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XibedViewController.swift; sourceTree = "<group>"; };
+		BBAD86D622DF8AB2007A5D01 /* XibedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XibedView.swift; sourceTree = "<group>"; };
+		BBAD86D722DF8AB2007A5D01 /* Instantiable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Instantiable.swift; sourceTree = "<group>"; };
+		BBAD86D822DF8AB2007A5D01 /* Storyboarded.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Storyboarded.swift; sourceTree = "<group>"; };
+		BBAD86D922DF8AB2007A5D01 /* ViewCodedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewCodedViewController.swift; sourceTree = "<group>"; };
+		BBAD86DB22DF8AB2007A5D01 /* Loggable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Loggable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -297,34 +278,41 @@
 		359649011FB18CBF00FC7ADC /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				BBAD86D122DF8AB2007A5D01 /* Coordinators */,
+				BBAD86D422DF8AB2007A5D01 /* Initialization */,
+				BBAD86DA22DF8AB2007A5D01 /* Loggable */,
 				359649021FB18CBF00FC7ADC /* Common.swift */,
-				BBAD86AE22DF691F007A5D01 /* Coordinators */,
-				BBAD86A622DF691F007A5D01 /* Initialization */,
 			);
 			path = Core;
 			sourceTree = "<group>";
 		};
-		BBAD86A622DF691F007A5D01 /* Initialization */ = {
+		BBAD86D122DF8AB2007A5D01 /* Coordinators */ = {
 			isa = PBXGroup;
 			children = (
-				BBAD86A722DF691F007A5D01 /* XibedViewController.swift */,
-				BBAD86A822DF691F007A5D01 /* XibedView.swift */,
-				BBAD86A922DF691F007A5D01 /* Instantiable.swift */,
-				BBAD86AA22DF691F007A5D01 /* Storyboarded.swift */,
-				BBAD86AB22DF691F007A5D01 /* ViewCodedViewController.swift */,
+				BBAD86D222DF8AB2007A5D01 /* Coordinated.swift */,
+				BBAD86D322DF8AB2007A5D01 /* Coordinator.swift */,
 			);
-			name = Initialization;
-			path = ../../../../../../../Tutoriais/Coordinator/CoordinatorTest/CoordinatorTest/Common/Protocols/Initialization;
+			path = Coordinators;
 			sourceTree = "<group>";
 		};
-		BBAD86AE22DF691F007A5D01 /* Coordinators */ = {
+		BBAD86D422DF8AB2007A5D01 /* Initialization */ = {
 			isa = PBXGroup;
 			children = (
-				BBAD86AF22DF691F007A5D01 /* Coordinated.swift */,
-				BBAD86B022DF691F007A5D01 /* Coordinator.swift */,
+				BBAD86D522DF8AB2007A5D01 /* XibedViewController.swift */,
+				BBAD86D622DF8AB2007A5D01 /* XibedView.swift */,
+				BBAD86D722DF8AB2007A5D01 /* Instantiable.swift */,
+				BBAD86D822DF8AB2007A5D01 /* Storyboarded.swift */,
+				BBAD86D922DF8AB2007A5D01 /* ViewCodedViewController.swift */,
 			);
-			name = Coordinators;
-			path = ../../../../../../../Tutoriais/Coordinator/CoordinatorTest/CoordinatorTest/Common/Protocols/Coordinators;
+			path = Initialization;
+			sourceTree = "<group>";
+		};
+		BBAD86DA22DF8AB2007A5D01 /* Loggable */ = {
+			isa = PBXGroup;
+			children = (
+				BBAD86DB22DF8AB2007A5D01 /* Loggable.swift */,
+			);
+			path = Loggable;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -622,14 +610,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BBAD86C922DF691F007A5D01 /* Coordinated.swift in Sources */,
-				BBAD86B522DF691F007A5D01 /* XibedView.swift in Sources */,
-				BBAD86C122DF691F007A5D01 /* ViewCodedViewController.swift in Sources */,
+				BBAD86DC22DF8AB2007A5D01 /* Coordinated.swift in Sources */,
+				BBAD86E222DF8AB2007A5D01 /* ViewCodedViewController.swift in Sources */,
+				BBAD86E022DF8AB2007A5D01 /* Instantiable.swift in Sources */,
 				359649031FB18CC000FC7ADC /* Common.swift in Sources */,
-				BBAD86BD22DF691F007A5D01 /* Storyboarded.swift in Sources */,
-				BBAD86B122DF691F007A5D01 /* XibedViewController.swift in Sources */,
-				BBAD86B922DF691F007A5D01 /* Instantiable.swift in Sources */,
-				BBAD86CD22DF691F007A5D01 /* Coordinator.swift in Sources */,
+				BBAD86DD22DF8AB2007A5D01 /* Coordinator.swift in Sources */,
+				BBAD86DF22DF8AB2007A5D01 /* XibedView.swift in Sources */,
+				BBAD86E322DF8AB2007A5D01 /* Loggable.swift in Sources */,
+				BBAD86DE22DF8AB2007A5D01 /* XibedViewController.swift in Sources */,
+				BBAD86E122DF8AB2007A5D01 /* Storyboarded.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -637,14 +626,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BBAD86CC22DF691F007A5D01 /* Coordinated.swift in Sources */,
-				BBAD86B822DF691F007A5D01 /* XibedView.swift in Sources */,
-				BBAD86C422DF691F007A5D01 /* ViewCodedViewController.swift in Sources */,
 				359649061FB18CC000FC7ADC /* Common.swift in Sources */,
-				BBAD86C022DF691F007A5D01 /* Storyboarded.swift in Sources */,
-				BBAD86B422DF691F007A5D01 /* XibedViewController.swift in Sources */,
-				BBAD86BC22DF691F007A5D01 /* Instantiable.swift in Sources */,
-				BBAD86D022DF691F007A5D01 /* Coordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -652,14 +634,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BBAD86CA22DF691F007A5D01 /* Coordinated.swift in Sources */,
-				BBAD86B622DF691F007A5D01 /* XibedView.swift in Sources */,
-				BBAD86C222DF691F007A5D01 /* ViewCodedViewController.swift in Sources */,
 				359649041FB18CC000FC7ADC /* Common.swift in Sources */,
-				BBAD86BE22DF691F007A5D01 /* Storyboarded.swift in Sources */,
-				BBAD86B222DF691F007A5D01 /* XibedViewController.swift in Sources */,
-				BBAD86BA22DF691F007A5D01 /* Instantiable.swift in Sources */,
-				BBAD86CE22DF691F007A5D01 /* Coordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -667,14 +642,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BBAD86CB22DF691F007A5D01 /* Coordinated.swift in Sources */,
-				BBAD86B722DF691F007A5D01 /* XibedView.swift in Sources */,
-				BBAD86C322DF691F007A5D01 /* ViewCodedViewController.swift in Sources */,
 				359649051FB18CC000FC7ADC /* Common.swift in Sources */,
-				BBAD86BF22DF691F007A5D01 /* Storyboarded.swift in Sources */,
-				BBAD86B322DF691F007A5D01 /* XibedViewController.swift in Sources */,
-				BBAD86BB22DF691F007A5D01 /* Instantiable.swift in Sources */,
-				BBAD86CF22DF691F007A5D01 /* Coordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -772,7 +740,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -830,7 +798,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
@@ -855,7 +823,7 @@
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = inacio.lojinha.common.Common;
 				PRODUCT_NAME = Common;
@@ -876,7 +844,7 @@
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = inacio.lojinha.common.Common;
 				PRODUCT_NAME = Common;
