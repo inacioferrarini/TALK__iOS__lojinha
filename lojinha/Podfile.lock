@@ -5,15 +5,16 @@ PODS:
   - IQKeyboardManager (6.4.0)
   - Main (0.0.1):
     - Main/Core (= 0.0.1)
-  - Main/Core (0.0.1)
+  - Main/Core (0.0.1):
+    - Common
   - Nimble (8.0.2)
   - Quick (2.1.0)
   - StoreFront (0.0.1):
     - StoreFront/Core (= 0.0.1)
-  - StoreFront/Core (0.0.1)
+  - StoreFront/Core (0.0.1):
+    - Common
 
 DEPENDENCIES:
-  - Common (from `../modules/Common`)
   - IQKeyboardManager
   - Main (from `../modules/Main`)
   - Nimble (= 8.0.2)
@@ -25,23 +26,23 @@ SPEC REPOS:
     - IQKeyboardManager
     - Nimble
     - Quick
+  https://github.com/inacioferrarini/podspecs.git:
+    - Common
 
 EXTERNAL SOURCES:
-  Common:
-    :path: "../modules/Common"
   Main:
     :path: "../modules/Main"
   StoreFront:
     :path: "../modules/StoreFront"
 
 SPEC CHECKSUMS:
-  Common: 1c73ff3fefe900c874b8cae243da2812ac79d075
+  Common: 0024e3033fe002cef56432e88d347150a4573064
   IQKeyboardManager: fcef267266379c003181fc3592f6bdb8bf4db839
-  Main: 20f0c2189f72a72c557c5ef4809f5130e6cfedf6
+  Main: ccf46ee5eb9f56dd868bbde911a8e19eead087c9
   Nimble: 622629381bda1dd5678162f21f1368cec7cbba60
   Quick: 4be43f6634acfa727dd106bdf3929ce125ffa79d
-  StoreFront: 54288600d870f9b54ce3bc0bfc0731ec2da0ea6d
+  StoreFront: af403fd3e768a4b445c369ac737f014ad4fb04e1
 
-PODFILE CHECKSUM: 1434536e43b60c525cae046956c1b2ed86871afb
+PODFILE CHECKSUM: d191189c1bfe295f31183ffb5bc8f50e0a9f9faa
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.7.4
