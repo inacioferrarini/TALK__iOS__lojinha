@@ -17,10 +17,13 @@ public class MainCoordinator: NSObject, Coordinator {
     }
     
     internal func loadModules() {
-        self.tabBarController.viewControllers = [
-            StoreFront().viewController,
-            StoreFront().viewController
+        
+        let modules: [Module] = [
+            StoreFront(),
+            StoreFront()
         ]
+        
+        self.tabBarController.viewControllers = modules.map({ return $0.viewController })
         print("loading modules ...")
     }
     
