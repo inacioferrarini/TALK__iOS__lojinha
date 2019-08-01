@@ -3,18 +3,18 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		0D3C816F489B917B5A0AAE48 /* Pods_lojinhaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BF510113603C6A8C873AE21 /* Pods_lojinhaUITests.framework */; };
 		79BA0C1F73DE3CEBEB8B0828 /* Pods_lojinha.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5ACC199C6FA236DBA842A36 /* Pods_lojinha.framework */; };
+		BB3CF16322E0EE130019783C /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3CF16222E0EE130019783C /* MainCoordinator.swift */; };
 		BBAD866922DE6BAE007A5D01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAD866822DE6BAE007A5D01 /* AppDelegate.swift */; };
 		BBAD867022DE6BAF007A5D01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBAD866F22DE6BAF007A5D01 /* Assets.xcassets */; };
 		BBAD867322DE6BAF007A5D01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBAD867122DE6BAF007A5D01 /* LaunchScreen.storyboard */; };
 		BBAD867E22DE6BAF007A5D01 /* lojinhaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAD867D22DE6BAF007A5D01 /* lojinhaTests.swift */; };
 		BBAD868922DE6BAF007A5D01 /* lojinhaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAD868822DE6BAF007A5D01 /* lojinhaUITests.swift */; };
-		BBAD869E22DE6E2E007A5D01 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAD869D22DE6E2E007A5D01 /* MainCoordinator.swift */; };
 		C50D224C42E51E68294B639A /* Pods_lojinhaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB7CC0C8CF1C645DC66301B3 /* Pods_lojinhaTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +39,7 @@
 		01EB8ADCC427BBDBDE95F446 /* Pods-lojinha.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lojinha.release.xcconfig"; path = "Pods/Target Support Files/Pods-lojinha/Pods-lojinha.release.xcconfig"; sourceTree = "<group>"; };
 		0BF510113603C6A8C873AE21 /* Pods_lojinhaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_lojinhaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3685F031574ABB495F1A6B49 /* Pods-lojinhaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lojinhaUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-lojinhaUITests/Pods-lojinhaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BB3CF16222E0EE130019783C /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
 		BBAD866522DE6BAE007A5D01 /* lojinha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lojinha.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBAD866822DE6BAE007A5D01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BBAD866F22DE6BAF007A5D01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -50,7 +51,6 @@
 		BBAD868422DE6BAF007A5D01 /* lojinhaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lojinhaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBAD868822DE6BAF007A5D01 /* lojinhaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lojinhaUITests.swift; sourceTree = "<group>"; };
 		BBAD868A22DE6BAF007A5D01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BBAD869D22DE6E2E007A5D01 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
 		BDAE3CE5A3C7E9B40CB5CF5C /* Pods-lojinhaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lojinhaUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-lojinhaUITests/Pods-lojinhaUITests.release.xcconfig"; sourceTree = "<group>"; };
 		CCFDC7774F36F18F8C8D89AE /* Pods-lojinha.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lojinha.debug.xcconfig"; path = "Pods/Target Support Files/Pods-lojinha/Pods-lojinha.debug.xcconfig"; sourceTree = "<group>"; };
 		CE1B03E8D36AB836E2FB00BC /* Pods-lojinhaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lojinhaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-lojinhaTests/Pods-lojinhaTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -97,6 +97,46 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		BB3CF15D22E0EDAC0019783C /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				BB3CF15E22E0EDB30019783C /* Main */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		BB3CF15E22E0EDB30019783C /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				BB3CF16122E0EDEF0019783C /* Resources */,
+				BB3CF15F22E0EDBB0019783C /* Coordinators */,
+				BB3CF16022E0EDC50019783C /* Controllers */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		BB3CF15F22E0EDBB0019783C /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				BB3CF16222E0EE130019783C /* MainCoordinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		BB3CF16022E0EDC50019783C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		BB3CF16122E0EDEF0019783C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		BBAD865C22DE6BAE007A5D01 = {
 			isa = PBXGroup;
 			children = (
@@ -122,8 +162,8 @@
 		BBAD866722DE6BAE007A5D01 /* lojinha */ = {
 			isa = PBXGroup;
 			children = (
+				BB3CF15D22E0EDAC0019783C /* Modules */,
 				BBAD869722DE6C06007A5D01 /* Init */,
-				BBAD869822DE6D6F007A5D01 /* Modules */,
 				BBAD869622DE6BB9007A5D01 /* Resources */,
 			);
 			path = lojinha;
@@ -163,46 +203,6 @@
 				BBAD866822DE6BAE007A5D01 /* AppDelegate.swift */,
 			);
 			path = Init;
-			sourceTree = "<group>";
-		};
-		BBAD869822DE6D6F007A5D01 /* Modules */ = {
-			isa = PBXGroup;
-			children = (
-				BBAD869C22DE6E1A007A5D01 /* Main */,
-			);
-			path = Modules;
-			sourceTree = "<group>";
-		};
-		BBAD869922DE6D83007A5D01 /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controllers;
-			sourceTree = "<group>";
-		};
-		BBAD869A22DE6DA8007A5D01 /* Coordinators */ = {
-			isa = PBXGroup;
-			children = (
-				BBAD869D22DE6E2E007A5D01 /* MainCoordinator.swift */,
-			);
-			path = Coordinators;
-			sourceTree = "<group>";
-		};
-		BBAD869B22DE6DB2007A5D01 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
-		BBAD869C22DE6E1A007A5D01 /* Main */ = {
-			isa = PBXGroup;
-			children = (
-				BBAD869922DE6D83007A5D01 /* Controllers */,
-				BBAD869A22DE6DA8007A5D01 /* Coordinators */,
-				BBAD869B22DE6DB2007A5D01 /* Resources */,
-			);
-			path = Main;
 			sourceTree = "<group>";
 		};
 		DDDA3C0C55EA459943AE30C2 /* Pods */ = {
@@ -457,7 +457,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BBAD866922DE6BAE007A5D01 /* AppDelegate.swift in Sources */,
-				BBAD869E22DE6E2E007A5D01 /* MainCoordinator.swift in Sources */,
+				BB3CF16322E0EE130019783C /* MainCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -19,13 +19,15 @@ target 'lojinha' do
 
   #Modules
   # pod 'Common', :path => '../modules/Common'
-  pod 'Main', :path => '../modules/Main'
   pod 'StoreFront', :path => '../modules/StoreFront'
+  pod 'Login', :path => '../modules/Login'
 
   target 'lojinhaTests' do
     inherit! :search_paths
     pod 'Nimble', '8.0.2'
     pod 'Quick', '2.1.0'
+    pod 'KIF', :configurations => ['Debug']
+    pod 'KIF/IdentifierTests', :configurations => ['Debug']
   end
 
   target 'lojinhaUITests' do

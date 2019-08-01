@@ -7,3 +7,6 @@
 [submodule "modules/Main"]
 	path = modules/Main
 	url = https://github.com/inacioferrarini/lojinha-main.git
+[submodule "modules/Login"]
+	path = modules/Login
+	url = https://github.com/inacioferrarini/lojinha-login
