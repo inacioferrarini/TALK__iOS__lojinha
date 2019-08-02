@@ -1,6 +1,7 @@
 import Foundation
 import Common
 import StoreFront
+import Login
 
 public class MainCoordinator: NSObject, Coordinator {
     
@@ -19,8 +20,8 @@ public class MainCoordinator: NSObject, Coordinator {
     internal func loadModules() {
         
         let modules: [Module] = [
-            StoreFront(),
-            StoreFront()
+            StoreFrontModule(),
+            LoginModule()
         ]
         
         self.tabBarController.viewControllers = modules.map({ return $0.viewController })
